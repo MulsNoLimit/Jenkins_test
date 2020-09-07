@@ -3,7 +3,7 @@ from redis import Redis, RedisError
 import os
 import socket
 
-# 12Connect to Redis TST1121
+# 12Connect to Redis 
 redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
 
 app = Flask(__name__)
